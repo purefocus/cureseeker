@@ -1,0 +1,61 @@
+div#diseaseMinimal {
+	border:1px solid #41555F;
+	margin-top:24px;
+	border-radius: 3px;
+	background: rgba(255,255,255,0.1);
+	min-height:31px; 
+	width:370px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+#diseaseMinimal div.step {
+	background: rgba(255,255,255,0.2);
+	height:27px;
+    margin: 0 auto;
+}
+
+#diseaseMinimal div.noData {
+	background: rgba(255,255,255,0.2);
+	text-align:center;	
+    vertical-align: middle;
+    overflow:hidden;
+    width:100%;
+}
+
+/* one item */	
+
+#diseaseMinimal div.step {
+	display: flex;
+	width:86px;
+	margin:2px;
+	border:1px solid #41555F;
+	border-radius: 3px;
+	position:relative;
+	
+}
+#diseaseMinimal div.step span.part {
+	padding-top:10px;
+	line-height:20px;
+	padding-left:2px;
+}
+#diseaseMinimal div.step span.count {
+	position:absolute;
+	top:-1px;
+	right:-1px;
+	width:15px;
+	padding-left:5px;
+	border-bottom-left-radius: 10px;
+    border: 1px solid white;
+    border-top:0;
+    border-right:0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#diseaseMinimal div.step span.count:hover {
+	background: rgba(255,255,255,0.2);
+	
+}
