@@ -1,0 +1,116 @@
+bodyparts=([
+	{
+		"t": "You examine the animal's head",
+		"type": "head",
+		"disease":[
+			{ "t": "You can't seem to spot anything immediately obvious.", "d": "all" },
+			{ "t": "The gums appear to be healthy.", "d": "all"},
+			{ "t": "The gums appear to be a healthy.", "d": "all" },			
+			{ "t": "The gums appear to be healthy.", "d": "all" },
+			{ "t": "The animal's nose seems fine.",	"d": "all" },
+			{ "t": "The animal's breath smells normal.", "d": "all" },
+			
+			{ "t": "The animal coughs in your face.", "d": "flu" },
+			{ "t": "The animal appears to be suffering from a fever.", "d": "flu" },
+			{ "t": "The animal's breath smells deeply unpleasant.", "d": "flu" },
+			{ "t": "The animal sneezes in your face.", "d": "flu" },
+			{ "t": "The animal appears to be suffering from a small fever.", "d": "flu" },
+			
+			{ "t": "The animal occasionally mumbles something in a language it can't possibly speak.", "d": "curse"},
+			{ "t": "The animal's nose is lumpy, like it's grown warts.", "d": "curse" },
+			{ "t": "The animal's breath smells faintly of sulphur.", "d": "curse" },
+			{ "t": "There is a faint light deep within the animal's throat.", "d": "curse" },
+			
+			{ "t": "The animal refuses to let you see its nose it seems like the nose is quite sore.", "d": "dry-nose" },
+			{ "t": "The animal refuses to let you see its nose, it seems like the nose is quite sore.", "d": "dry-nose" },
+			{ "t": "The animal's nose is very dry.", "d": "dry-nose" },
+			
+			{ "t": "The animal coughs loudly in a 'hu hu huuu' style.", "d": "wooting-cough" },
+			{ "t": "The animal coughs as you try and examine it.", "d": "wooting-cough" },
+			
+			{ "t": "The animal's breath smells oddly like socks", "d": "foot-in-mouth" },
+			{ "t": "There are some nasty looking marks along the gum line.", "d": "foot-in-mouth" },
+			{ "t": "The animal keeps making noises at embarrassing moments, making it difficult to investigate.", "d": "foot-in-mouth" },
+			{ "t": "The animal keeps making noises at sing moments, making it difficult to investigate.", "d": "foot-in-mouth" },
+			{ "t": "The gums appear to be a little sore.", "d": "foot-in-mouth" },
+			
+			{ "t": "The animal's teeth click in a sinister manner.", "d": "bone-rattle"	},
+			{ "t": "The animal's breath smells normal, which is to say horrible.", "d": "bone-rattle"	}		
+		]
+			
+	},
+	{
+		"t": "You examine the animal's eyes",
+		"type": "eyes",
+		"disease": [
+			{ "t": "The animal's eyes seem fine.", "d": "all"  },
+			{ "t": "You can't seem to spot anything immediately obvious.", "d": "all"  },
+			{ "t": "The animal's eyes seem normal.", "d": "all"  },
+			
+			{ "t": "The eyes are a little bloodshot.", "d": "flu"  },
+			
+			{ "t": "The animal's eyes are faintly glowing.", "d": "curse"  },
+			{ "t": "The animal's eyes seem a little glazed over", "d": "curse"  },
+			{ "t": "The animal's eyes are filled with uncharacteristic malice.", "d": "curse"  },
+			{ "t": "The animal's eyes are filled with ristic malice.", "d": "curse"  },
+			{ "t": "The animal's eyes are a little bloodshot.", "d": "curse"  },
+			
+			{ "t": "The animal's eyes keep darting around the place with a sense of wonder.", "d": "wooting-cough"  },
+			{ "t": "The animal's eyes are filled with mirth, more mirth than normal.", "d": "wooting-cough"  },
+			{ "t": "The eyes are a little bloodshot.", "d": "wooting-cough"  }
+		]
+	},
+	{
+		"t": "You examine the animal's legs",
+		"type": "legs",
+		"disease":[
+			{ "t": "The animal's feet seem fine.", "d": "all"  },
+			{ "t": "The animal's legs seem fine.", "d": "all"  },
+			{ "t": "You can't seem to spot anything immediately obvious.", "d": "all"  },
+			
+			{ "t": "The animal's feet are very sweaty.", "d": "flu"  },
+			{ "t": "The animal's feet are clammy.", "d": "flu"  },,
+			{ "t": "The animal's feet are very warm to the touch.", "d": "flu"  },
+			
+			{ "t": "The animal's feet are tapping to a strange rhythm. It's unsettling.", "d": "curse"  },
+			{ "t": "The animal's feet are faintly chewed on.", "d": "curse"  },
+			{ "t": "The animal's feet seem a little scuffed.", "d": "curse"  },
+									
+			{ "t": "The animal is a little unsteady on its feet.", "d": "wooting-cough"  },
+			
+			{ "t": "The animal's feet are a little soggy for some reason.", "d": "foot-in-mouth"  },
+			{ "t": "The animal's feet seem a little scuffed.", "d": "foot-in-mouth"  },
+
+			{ "t": "The animal's legs click as it walks.", "d": "bone-rattle"  },
+			{ "t": "The animal's legs seem a little stiff.", "d": "bone-rattle"  }
+		]
+
+
+	},
+	{
+		"t": "You examine the animal's stomach",
+		"type": "stomach",
+		"disease": [
+			{ "t": "The animal has a bit of gas, but nothing too concerning.", "d": "all"  },
+		  	{ "t": "The animal doesn't appear to be in gastronomic distress.", "d": "all"  },
+			{ "t": "You can't seem to spot anything immediately obvious.", "d": "all"  },
+			
+		  	{ "t": "The animal seems off its food.", "d": "flu"  },
+		  	{ "t": "The animal appears to be suffering from nausea.", "d": "flu"  },
+			
+			{ "t": "The animal seems off its food.", "d": "curse"  },
+			{ "t": "The animal's stomach is making strange noises, like there's something singing inside there.", "d": "curse"  }, 
+		  	{ "t": "The animal's stomach is making noises, like there's something singing inside there.", "d": "curse"  },
+			
+		  	{ "t": "The animal's body is slightly swollen.", "d": "wooting-cough"  },
+			{ "t": "The animal coughs regularly.", "d": "wooting-cough"  },
+			
+			{ "t": "The animal's stomach appears to be a little bloated.", "d": "foot-in-mouth"  },
+			{ "t": "The animal's emissions smell strangely of shoes.", "d": "foot-in-mouth"  },
+
+			{ "t": "The animal appears to be shivering, but has no temperature.", "d": "bone-rattle"  },
+			{ "t": "The animal's body is making a weird clicking noise.", "d": "bone-rattle"  },  
+		]
+
+	}
+]);
