@@ -3,7 +3,7 @@
 	"description": "Determine cure for animals in Player Owned Farms",
 	"appUrl": "https://purefocus.github.io/cureseeker/",
 	"configUrl": "/appconfig.json",
-	"iconUrl": "http://www.portcalc.website/cureseeker/lib/img/icon.png",
+	"iconUrl": "https://purefocus.github.io/cureseeker/lib/img/icon.png",
 	"defaultWidth": 400,
 	"defaultHeight": 500,
 	"minWidth": 400,
