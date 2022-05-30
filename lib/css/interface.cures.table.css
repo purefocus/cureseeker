@@ -1,0 +1,34 @@
+table#diseaseTable {
+	border:1px solid #41555F;
+	margin:8px;
+	border-radius: 3px;
+	font-size:x-small;
+}
+table#diseaseTable thead th {
+	width:50px;
+}
+table#diseaseTable thead th.checked,table thead th.has {
+	border-radius: 3px;
+    background: rgba(255,255,255,0.2);
+    text-align: center;
+    margin: 3px 10px;
+
+}
+table#diseaseTable td.has{
+	color:green;
+	background: rgba(0,255,0,0.2);
+}
+table#diseaseTable td.fine{
+	color:white;
+	background: rgba(255,255,255,0.2);
+}
+table#diseaseTable td {
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    background: rgba(255,0,0,0.2);
+    text-align: center;
+    margin: 3px 10px;
+    color: red;
+    font-size: x-large;
+}
