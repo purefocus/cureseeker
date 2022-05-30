@@ -1,0 +1,16 @@
+{
+	"appName": "Cure Seeker",
+	"description": "Determine cure for animals in Player Owned Farms",
+	"appUrl": "http://www.portcalc.website/cureseeker",
+	"configUrl": "/appconfig.json",
+	"iconUrl": "http://www.portcalc.website/cureseeker/lib/img/icon.png",
+	"defaultWidth": 400,
+	"defaultHeight": 500,
+	"minWidth": 400,
+	"minHeight": 200,
+	"maxWidth": 400,
+	"maxHeight": 500,
+	"requestHandlers": [ ],
+	"activators": [ ],
+	"permissions": "pixel,overlay"
+}
