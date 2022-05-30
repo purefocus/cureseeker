@@ -1,0 +1,90 @@
+#settings .crty-header {
+	margin-bottom:3px;
+}
+#settings .title {
+	position:relative;
+    border-bottom: 1px solid #41555F;
+    margin:3px 0 2px 0;
+    width:100%;
+    height:17px;
+}
+#settings .title .buttons  {
+	position:absolute;
+	right:0px;
+	top:-2px;
+}
+#settings .title .buttons .icoBorder {
+	line-height:10px;
+}
+#settings .buttons i {
+	font-size:10px;
+	line-height:10px;
+
+}
+#settings .borderImage:before, #settings .borderImage:after {
+	z-index: 9705;
+}
+#settings .option label {
+	position:relative;
+	z-index: 9710;
+}
+
+#settings .borderImage {
+	white-space: nowrap;
+  	overflow: hidden;
+  	height:25px;
+	background-color:#534c44;
+	background: linear-gradient(#534c44, #271d14, #190e03, #190e03, #241a11);
+	display: flex;
+    flex-flow: nowrap;
+    width:250px;
+    margin: 0 auto;
+}
+#settings .borderImage.active, #settings .borderImage:hover {
+	background: linear-gradient(#877567, #55402a, #372109, #372109, #473323);
+}
+#settings .borderImage .name {
+	position:relative;
+	top:0px;
+	left:1px;
+	bottom:0px;
+	border:1px black solid;
+	line-height:23px;
+	padding-left:5px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	width:100%;
+}
+#settings .borderImage .name:after {
+content:'';
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	width:0px;
+	border-right:1px black solid;
+}
+#settings .borderImage .options {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    position:relative;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+#settings .option:hover .filebutton {
+	color:gray;
+}
+#settings input.pb2-string {
+	background-color:rgba(0,0,0,.2);
+	border-radius:5px;
+	border:1px rgba(255,255,255,.2) solid;
+	color:white;	
+	font-family:rs-pro-3;
+	font-size:18px;
+	padding-left:5px;
+	width:130px;
+}
