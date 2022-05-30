@@ -1,0 +1,22 @@
+table#ledger td.has{
+	color:green;
+	background: rgba(0,255,0,0.2);
+}
+table#ledger td.fine{
+	color:white;
+	background: rgba(255,255,255,0.2);
+}
+table#ledger td {
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    background: rgba(255,0,0,0.2);
+    text-align: center;
+    margin: 3px 10px;
+    color: red;
+    font-size: x-large;
+}
+div#overview h3 {
+    margin-bottom: 0px;
+
+}
